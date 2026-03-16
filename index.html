@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Austin Schandel Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/turn.js@4/turn.min.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<nav>
+
+<button onclick="show('home')">Home</button> <button onclick="show('gallery')">Gallery</button> <button onclick="show('resume')">Resume</button> <button onclick="show('tools')">Tools</button> <button onclick="show('contact')">Contact</button>
+
+</nav>
+
+<section id="home" class="page active">
+
+<h1>Austin Schandel</h1>
+<p>Music Business Portfolio</p>
+
+</section>
+
+<section id="gallery" class="page">
+
+<h1>3D Gallery</h1>
+
+<div id="carousel">
+
+<img src="https://picsum.photos/500?1">
+<img src="https://picsum.photos/500?2">
+<img src="https://picsum.photos/500?3">
+<img src="https://picsum.photos/500?4">
+<img src="https://picsum.photos/500?5">
+
+</div>
+
+</section>
+
+<section id="resume" class="page">
+
+<h1>Interactive Resume</h1>
+
+<div id="book">
+
+<div class="pageContent">Resume</div>
+<div class="pageContent">Experience</div>
+<div class="pageContent">Projects</div>
+<div class="pageContent">Skills</div>
+
+</div>
+
+</section>
+
+<section id="tools" class="page">
+
+<h1>Mini Tools</h1>
+
+<h2>Paint</h2>
+<canvas id="paint"></canvas>
+
+</section>
+
+<section id="contact" class="page">
+
+<h1>Contact</h1>
+
+<p>Email: your@email.com</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
